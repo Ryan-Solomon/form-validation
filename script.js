@@ -47,10 +47,10 @@ function storeFormData() {
 
 function processFromData(e) {
   e.preventDefault();
-    vaildateFrom();
-    if (isValid %% passwordsMatch) {
-        storeFormData()
-    }
+  vaildateFrom();
+  if (isValid && passwordsMatch) {
+    storeFormData();
+  }
 }
 
 // Event Listener
